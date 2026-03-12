@@ -6,8 +6,6 @@ services:
       context: .
       args:
        NODE_ENV: production
-    volumes:
-      - .:/app
     environment:
       - NODE_ENV=production
     depends_on:
